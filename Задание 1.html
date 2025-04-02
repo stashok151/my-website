@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+
+    </style> 
+</head>
+<body>
+    <!-- <section id="achievements">
+        <div class="photo-item">
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="photo-item">
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="photo-item">
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="photo-item">
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section> -->
+    <!-- <div class="main">
+        <div class="left">
+            <div class="left-top-side">
+                <div class="left-top-side-left">
+
+                </div>
+                <div class="left-top-side-right">
+
+                </div>
+            </div>
+            <div class="left-bottom-side">
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+
+            </div>
+            <div class="right-bottom">
+                <div class="small">
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script>
+        function f1(){  
+    a = +prompt(`Куда ты пойдешь?  
+        1 В лес.  
+        2 На поляну.  
+        3 К дубу.`);  
+    switch(a){  
+        case 1: f2(); break;  
+        case 2: alert(`Ты вышел на поляну, продолжил идти и увидел город, от туда он был очень красив.`); break;  
+        case 3: f3(); break;  
+    };  
+};  
+function f2(){  
+    a = +prompt(`Ты пошёл в лес! И видишь яблоню, что будишь делать теперь?  
+    1 Вернуться.  
+    2 Взять зелёное яблоко.  
+    3 Взять красное.`);  
+    switch(a){  
+        case 1: f1(); break;  
+        case 2: alert(`Ты просто съел яблоко и продолжил идти дальше. И вышел на поляну, продолжил идти и увидел город, от туда он был очень красив.`); break;  
+        case 3: alert(`Тебе стало плохо и ты сдох.`); break;  
+    };  
+};  
+function f3(){  
+    a = +prompt(`Ты пришёл к дубу! И видишь дверцу в нём, что будишь делать теперь?  
+    1 Вернуться.  
+    2 Открыть дверцу.  
+    3 Сдохнуть.:)`);  
+    switch(a){  
+        case 1: f1(); break;  
+        case 2: alert(`Непонятно как но ты очутился в городе`); break;  
+        case 3: alert(`WASTED`); break;  
+    };  
+};  
+f1();
+    </script>
+</body>
+</html>
